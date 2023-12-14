@@ -1,0 +1,30 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "游戏合集",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 10
+			}
+		},{
+            "path" : "pages/game/car/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "激情赛车",
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false,
+				"disableScroll": true
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "游戏合集",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
